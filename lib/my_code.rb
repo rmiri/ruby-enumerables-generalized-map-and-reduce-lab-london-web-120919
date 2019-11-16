@@ -21,6 +21,7 @@ def reduce (array , sp=nil)
     end
   else
     sp = array[0]
+    i = 1
   end
 
 end
