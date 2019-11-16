@@ -10,9 +10,9 @@ def map(thing)
 end
 
 def reduce (array , sp=nil)
-  if sv == true
+  if sp == true
     i=0
-    total = sv
+    total = sp
     while i < array.length do
 
       total += array[i]
