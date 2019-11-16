@@ -8,3 +8,18 @@ def map(thing)
   end
   p n_array
 end
+
+def reduce(array , sp=nil)
+  if sp
+    i=0
+    total = sp
+  else
+    i = 1
+    total = array[0]
+  end
+  while i < array.length
+    total = yield(total,array[i])
+    i += 1
+  end
+  total
+end
