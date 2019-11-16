@@ -19,5 +19,6 @@ def reduce (array,sv=nil)
       yield total
       i += 1
     end
+  end
 
 end
