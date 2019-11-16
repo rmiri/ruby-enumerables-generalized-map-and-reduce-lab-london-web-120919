@@ -9,7 +9,7 @@ def map(thing)
   p n_array
 end
 
-def reduce (array , sp=nil)
+def reduce(array , sp=nil)
   if sp == true
     i=0
     total = sp
