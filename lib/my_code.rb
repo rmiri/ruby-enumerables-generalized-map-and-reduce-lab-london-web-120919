@@ -8,3 +8,6 @@ def map(thing)
   end
   p n_array
 end
+
+def reduce
+end
