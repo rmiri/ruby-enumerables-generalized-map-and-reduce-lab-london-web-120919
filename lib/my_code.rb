@@ -9,8 +9,8 @@ def map(thing)
   p n_array
 end
 
-def reduce (array, sp=nil)
-  if sv
+def reduce (array , sp=nil)
+  if sv == true
     i=0
     total = 0
     while i < array.length do
