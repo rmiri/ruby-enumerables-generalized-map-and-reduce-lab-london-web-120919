@@ -19,6 +19,8 @@ def reduce (array , sp=nil)
       yield total
       i += 1
     end
+  else
+    sp = array[0]
   end
 
 end
