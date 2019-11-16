@@ -13,15 +13,14 @@ def reduce (array , sp=nil)
   if sp == true
     i=0
     total = sp
-    while i < array.length do
-
-      total += array[i]
-      yield total
-      i += 1
-    end
   else
     sp = array[0]
     i = 1
+  end
+  while i < array.length do
+    total += array[i]
+    yield total
+    i += 1
   end
 
 end
