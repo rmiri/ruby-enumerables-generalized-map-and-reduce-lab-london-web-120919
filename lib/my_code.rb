@@ -9,5 +9,5 @@ def map(thing)
   p n_array
 end
 
-def reduce
+def reduce (thing)
 end
